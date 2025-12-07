@@ -1,0 +1,166 @@
+body {
+    font-family: "Texturina", serif;
+    margin: 0;
+}
+
+/* the header stuff */
+header {
+    background-color: #6fb368;
+    padding: 1rem 8px;
+}
+header span {
+    color: #131316;
+    font-size: 2rem;
+    font-weight: 700;
+}
+header p {
+    color: #131316;
+    font-size: 1rem;
+    font-weight: 400;
+}
+header figure {
+    margin: 0 0 0 15px;
+    width: 70%;
+    float: right;
+}
+header figure img {
+    width: 100%;
+    height: auto;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #131316;
+}
+nav ul {
+    margin: 0;
+    font-size: 50px;
+    padding: 0 8px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #EDEBED;
+    font-weight: 900;
+}
+
+nav li.active a {
+    background-color: #EDEBED;
+    color: #5C82BD;
+}
+
+nav li a:hover {
+    color: #CA3230;
+}
+
+/* main stuff here*/
+
+main {
+    padding: 1rem 8px;
+}
+
+main h1 {
+    color: #CA3230;
+}
+main h2 {
+    color: #5C82BD;
+    margin-bottom: .3rem;
+}
+main p {
+    margin: 0;
+    color: #131316;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: #EDEBED;
+}
+main dl dt {
+    color: #CA3230;
+    font-weight: 700;
+    margin-top: 0.8rem;
+}
+main dl dd {
+    color: #131316;
+    background-color: #EDEBED;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main ul {
+    list-style-type: square;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 70;
+}
+main address {
+    font-style: normal;
+    background-color: #EDEBED;
+    color: #131316;
+    padding: .5rem;
+    border-radius: 15px;
+    border: 1.5px groove #5C82BD;
+    width: 200px;
+}
+main a {
+    color: #6fb368;
+}
+main a:hover {
+    color: #CA3230;
+}
+
+/* main image stuff */
+figure.grampa {
+    margin: 0 0 2px 8px;
+    width: 35%;
+    float: right;
+}
+figure.grampa img {
+    width: 100%;
+    height: auto;
+}
+figure.grampa figcaption {
+    text-align: center;
+    font-size: .70rem;
+}
+
+/* Gallery Stuff */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 15px;
+}
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .6rem;
+    color: #CA3230;
+}
+
+/* footer stuff here */
+footer {
+    clear: both;
+    background-color: #6fb368;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #131316;
+    letter-spacing: 3px;
+}
