@@ -20,7 +20,7 @@ header p {
 }
 header figure {
     margin: 0 0 0 15px;
-    width: 70%;
+    width: 15%;
     float: right;
 }
 header figure img {
@@ -163,4 +163,5 @@ footer p {
     font-size: .8rem;
     color: #131316;
     letter-spacing: 3px;
+
 }
