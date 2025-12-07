@@ -19,11 +19,12 @@ header p {
     font-weight: 400;
 }
 header figure {
+    float: right;
     margin: 0 0 0 15px;
     max-width: 15%;
-    float: right;
 }
 header figure img {
+    float: right;
     width: 100%;
     height: auto;
 }
@@ -165,5 +166,6 @@ footer p {
     letter-spacing: 3px;
 
 }
+
 
 
