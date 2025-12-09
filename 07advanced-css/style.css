@@ -13,6 +13,7 @@ body {
 header {
     background-color: #6fb368;
     padding: 1rem 8px;
+    display: flex;
 }
 
 header span {
@@ -278,4 +279,5 @@ footer p {
 header, nav, main, footer {
     max-width: 70rem;
     margin: 0 auto;
+
 }
