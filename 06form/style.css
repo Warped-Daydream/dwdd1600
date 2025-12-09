@@ -167,7 +167,7 @@ div.gallery figcaption {
     color: #131316;
 }
 .feedback label, .feedback select, .feedback [type=tel], .feedback [type=email], .feedback [type=text], .feedback textarea {
-    display: grid;
+    display: block;
 }
 
 .feedback [type=text], .feedback [type=tel], .feedback [type=email], .feedback textarea {
@@ -197,4 +197,5 @@ footer p {
     letter-spacing: 3px;
 
 }
+
 
