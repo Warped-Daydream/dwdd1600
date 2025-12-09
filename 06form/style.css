@@ -179,7 +179,9 @@ div.gallery figcaption {
     background-color: #EDEBED;
     color: #131316;
 }
-
+.feedback [type=submit] {
+    color: #5C82BD;
+}
 
 /* footer stuff here */
 footer {
@@ -195,3 +197,4 @@ footer p {
     letter-spacing: 3px;
 
 }
+
