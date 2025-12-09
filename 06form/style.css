@@ -179,6 +179,10 @@ div.gallery figcaption {
     background-color: #EDEBED;
     color: #131316;
 }
+}
+.feedback textarea {
+    height: 6rem;
+}
 .feedback [type=submit] {
     color: #5C82BD;
 }
@@ -197,5 +201,6 @@ footer p {
     letter-spacing: 3px;
 
 }
+
 
 
