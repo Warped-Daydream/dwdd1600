@@ -275,10 +275,10 @@ table td {
     padding: .3rem .2%;
 }
 table tr:nth-child(even) {
-    background-color: #5C82BD;
+    background-color: #EDEBED;
 }
 table tr:hover {
-    background-color: #CA3230;
+    background-color: #5C82BD;
 }
 
 /* footer stuff here */
@@ -302,5 +302,6 @@ header, nav, main, footer {
     margin: 0 auto;
 
 }
+
 
 
