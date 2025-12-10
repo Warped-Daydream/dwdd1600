@@ -263,7 +263,6 @@ div.gallery img.other:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #EDEBED;
 }
 table th {
     background-color: #6fb368;
@@ -303,4 +302,5 @@ header, nav, main, footer {
     margin: 0 auto;
 
 }
+
 
