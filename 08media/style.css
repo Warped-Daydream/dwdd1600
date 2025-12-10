@@ -1,0 +1,305 @@
+/* Let's Prevent Problems on Different Browsers :D */
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Texturina", serif;
+    margin: 0;
+}
+
+/* the header stuff */
+header {
+    background-color: #6fb368;
+    padding: 1rem 8px;
+    display: flex;
+}
+
+header span {
+    color: #131316;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+header p {
+    color: #131316;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* small screen navigations */
+@media only screen and (max-width: 750px) {
+    nav ul {
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: .83rem;
+        color: #EDEBED;
+        background-color: #131316;
+        font-weight: 900;
+    }
+    nav li.active a {
+        background-image: linear-gradient(to bottom, #EDEBED, #5C82BD);
+        color: #CA3230;
+    }
+}
+/* end of le small screen navigationsn*/
+
+/* LARGE SCREEN NAVIGATIONS!!! */
+@media only screen and (min-width: 751px) {
+    nav {
+        background-color: #131316;
+    }
+
+    nav ul {
+        margin: 0;
+        font-size: 50px;
+        padding: 0 8px;
+        list-style-type: none;
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        padding: .83rem 1rem;
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: #EDEBED;
+        font-weight: 900;
+    }
+
+    nav li.active a {
+        background-color: #EDEBED;
+        color: #5C82BD;
+    }
+
+    nav li a:hover {
+        color: #CA3230;
+    }
+}
+/* end of le LARGE SCREEN navigations! */
+
+/* main stuff here*/
+
+main {
+    padding: 1rem 8px;
+}
+
+main h1 {
+    color: #CA3230;
+}
+
+main h2 {
+    color: #5C82BD;
+    margin-bottom: .3rem;
+}
+
+main p {
+    margin: 0;
+    color: #131316;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #EDEBED;
+}
+
+main dl dt {
+    color: #CA3230;
+    font-weight: 700;
+    margin-top: 0.8rem;
+}
+
+main dl dd {
+    color: #131316;
+    background-color: #EDEBED;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 70;
+}
+
+main address {
+    font-style: normal;
+    background-color: #EDEBED;
+    color: #131316;
+    padding: .5rem;
+    border-radius: 15px;
+    border: 1.5px groove #5C82BD;
+    width: 200px;
+}
+
+main a {
+    color: #6fb368;
+}
+
+main a:hover {
+    color: #CA3230;
+}
+
+/* main image stuff */
+figure.grampa {
+    margin: 0 0 2px 8px;
+    width: 35%;
+    float: right;
+}
+
+figure.grampa img {
+    width: 100%;
+    height: auto;
+}
+
+figure.grampa figcaption {
+    text-align: center;
+    font-size: .70rem;
+}
+
+.kai {
+    width: 100%;
+    height: auto;
+}
+
+/* Gallery Stuff */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 15px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .6rem;
+    color: #CA3230;
+}
+
+div.gallery img.fire:hover {
+    box-shadow: 0px -2px 8px #CA3230;
+}
+
+div.gallery img.ice:hover {
+    box-shadow: 3px 0px 7px #EDEBED;
+}
+
+div.gallery img.lightning:hover {
+    box-shadow: 0px 4px 6px #5C82BD;
+}
+
+div.gallery img.earth:hover {
+    box-shadow: 3px 3px 4px #131316;
+}
+
+div.gallery img.other:hover {
+    box-shadow: 0px 0px 10px #6fb368;
+}
+
+/*form stuffs*/
+.feedback fieldset {
+    border: 1px dashed #6fb368;
+    border-radius: 2px;
+    margin-bottom: 1.2rem;
+    margin-right: 3rem;
+}
+
+.feedback legend {
+    color: #5C82BD;
+    font-size: .65rem;
+}
+
+.feedback label {
+    margin: .3rem;
+    color: #131316;
+}
+
+.feedback label,
+.feedback select,
+.feedback [type=tel],
+.feedback [type=email],
+.feedback [type=text],
+.feedback textarea {
+    display: block;
+}
+
+.feedback [type=text],
+.feedback [type=tel],
+.feedback [type=email],
+.feedback textarea {
+    border: dotted 2px #5C82BD;
+    padding: .4rem;
+    width: 200px;
+    border-radius: .4rem;
+    font-family: "Texturina", serif;
+    background-color: #EDEBED;
+    color: #131316;
+}
+
+/* Table Design Stuff */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th {
+    background-color: #6fb368;
+    color: #131316;
+    padding: .5rem 1%;
+    text-align: left;
+}
+table td {
+    background-color: #EDEBED;
+    color: #131316;
+    padding: .3rem .2%;
+}
+table tr:nth-child(even) {
+    background-color: #5C82BD;
+}
+table tr:hover {
+    background-color: #CA3230;
+}
+
+/* footer stuff here */
+footer {
+    clear: both;
+    background-color: #6fb368;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #131316;
+    letter-spacing: 3px;
+}
+
+
+header, nav, main, footer {
+    max-width: 70rem;
+    margin: 0 auto;
+
+}
