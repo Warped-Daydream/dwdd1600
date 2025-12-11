@@ -36,7 +36,82 @@
 
     <!-- start the main content -->
     <main>
-        <h1>HA!! We don't care about feedback, nerd.</h1>
+        <h1>Contact Us</h1>
+
+        <h2>Our Form:</h2>
+        <form action="thanks.html" method="get" class="smallform">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Your Email<input type="email" name="useremail" required></label>
+                <label>Your Phone<input type="tel" name="phone" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>How Helpful Was Our Website?</legend required>
+                <label><input type="radio" name="helpful" value="very">It was very helpful!</label>
+                <label><input type="radio" name="helpful" value="sorta">It helped a bit.</label>
+                <label><input type="radio" name="helpful" value="not">It was not helpful at all!</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Any Issues With our Website?</legend>
+                <label><input type="checkbox" name="glitch" value="chosen">The overall look was really weird/I think it glitched.</label>
+                <label><input type="checkbox" name="" value="chosen"></label>
+                <label><input type="checkbox" name="" value="chosen"></label>
+                <label><input type="checkbox" name="" value="chosen"></label>
+                <label><input type="checkbox" name="missed" value="chosen">There was something really cool you missed (please write about it in the comments section!)</label>
+                <label><input type="checkbox" name="other" value="chosen">Other (please write about in comments)</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What on this website sounds the most interesting/you liked the most in Japan?</legend>
+                <select name="Pick just one:">
+                    <option value="none">Please Select</option>
+                    <option value="sushi">Sushi in General</option>
+                    <option value="michelin">Sukiyabashi Jiro Roppongi</option>
+                    <option value="ramen">Ramen in General</option>
+                    <option value="introvert">Ichiran Ramen (social anxiety ramen place)</option>
+                    <option value="okunoshima">Okunoshima</option>
+                    <option value="aoshima">Aoshima</option>
+                    <option value="zao">Zao Fox Village</option>
+                    <option value="kenrokuen">Gardens of Kenrokuen</option>
+                    <option value="miyajima">Miyajima Island</option>
+                    <option value="nakasendo">Nakasendo Highway Hike</option>
+                    <option value="asahidake">Asahidake Trek</option>
+                    <option value="tokyo">Tokyo City</option>
+                    <option value="kyotocusine">Traditional Kyoto Cusine Walking Tour</option>
+                    <option value="ghibli">Ghibli Anime Museum</option>
+                    <option value="grant">Tour Guide Grant A.</option>
+                    <option value="mido">Tour Guide Mido C.</option>
+                    <option value="chiaki">Tour Guide Chiaki K.</option>
+                    <option value="yoshi">Tour Guide Yoshi S.</option>
+                    <option value="hellokitty">Keio Plaza Hotel Tokyo</option>
+                    <option value="libraryhotel">Book and Bed Tokyo Shinjuku</option>
+                    <option value="dinohotel">Henn na Hotel</option>
+                    <option value="artsyhotel">Park Hotel Tokyo</option>
+                </select>
+            </fieldset>
+
+            <label>Additional Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+            <label>Went to Japan? Add your photos to be featured in our Happy Gallery!
+                <input type="file" accept=".jpg,.png etc">
+            </label>
+            
+            <input type="submit" value="Submit">
+        </form>
+
+        <h2>Where to find us</h2>
+        <address>
+            Embassy of Japan<br>
+            2520 Massachusetts Ave NW<br>
+            Washington, DC 20008
+        </address>
+        <h3>On the map</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25613081.68308965!2d-97.08853094999999!3d38.4045688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7cccc150fdd%3A0x46871106eca73e49!2sEmbassy%20of%20Japan!5e0!3m2!1sen!2sus!4v1765425018510!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
 
     <!-- start the page footer -->
@@ -45,5 +120,6 @@
     </footer>
 
 </body>
+
 
 </html>
