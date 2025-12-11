@@ -33,7 +33,7 @@ header {
 
 header span {
     color: #09114d;
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
 
@@ -61,7 +61,7 @@ header span {
 /* end of small screen navigation */
 
 /* LARGE SCREEN NAVIGATION */
-@media only screen and (min-width: 751px) {
+@media only screen and (min-width: 701px) {
     nav {
         background-color: #09114d;
     }
@@ -114,17 +114,161 @@ main p {
     color: black;
 }
 
+main ol {
+    padding: .3rem 25px;
+    background-color: #E6ECED;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main ul li {
+    line-height: 120%;
+    margin-bottom: .6rem;
+    font-size: 1rem;
+}
+
+main dl dt {
+    color: black;
+    margin-top: .5rem;
+}
+
+main dl dd {
+    color: #09114d;
+    background-color: #a0e8f3;
+    font-size: .8rem;
+    margin-left: 16px;
+}
+
+main address {
+    font-style: normal;
+    background-color: #a0e8f3;
+    color: black;
+}
+
+main a {
+    color: #09114d;
+}
+
+main a:hover {
+    color: #0f9ed6;
+}
+
+
+
+
 /* The hero image or whatever */
 .flag {
     width: 100%;
     height: auto;
 }
 
+/* Other in-page images */
+figure.leftside {
+    margin: 0 .8px 1px 0;
+    width: 20%;
+    float: left;
+}
+figure.rightside {
+    margin: 0 0 1px .8px;
+    width: 20%;
+    float: right;
+}
+figure.leftside img, figure.rightside img {
+    width: 100%;
+    height: auto;
+}
+figure.leftside figcaption, figure.rightside figcaption {
+    text-align: center;
+    font-size: .6rem;
+    color: #09114d;
+}
+
+
+/* Gallery Images */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+}
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .6rem;
+    color: #09114d;
+}
+div.gallery img:hover {
+    box-shadow: 3px 3px 2px #52D8F2;
+}
+
+
+/* Form Styling */
+.smallform fieldset {
+    border: 2px dotted #CA3230;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-right: 2.5rem;
+}
+.smallform legend {
+    color: #CA3230;
+    font-size: .7rem;
+}
+.smallform label {
+    margin: .25rem;
+    color: #09114d;
+}
+.smallform label, .smallform select, .smallform [type=tel], .smallform [type=email], .smallform [type=text], .smallform textarea {
+    display: block;
+}
+.smallform [type=tel], .smallform [type=email], .smallform [type=text], .smallform textarea {
+    border: dotted 2px #0f9ed6;
+    padding: .3rem;
+    width: 200px;
+    border-radius: 10px;
+    font-family: "Kablammo", system-ui;
+    background-color: #a0e8f3;
+    color: #09114d;
+}
+.smallform :required {
+    background-color: #d56462;
+}
+
+
+/* Table Designs */
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #d56462;
+    color: #064a65;
+    padding: .4rem 1%;
+    text-align: center;
+}
+
+table td {
+    color: #09114d;
+    padding: .2rem .2%;
+}
+
+table tr:nth-child(odd) {
+    background-color: #a0e8f3;
+}
+
+table tr:hover {
+background-color: #52D8F2;
+}
+
+
 
 /* footer stuff here */
 footer {
     clear: both;
-    background-color: #6fb368;
+    background-color: #52D8F2;
     text-align: center;
     padding: 1rem 0;
 }
@@ -132,7 +276,7 @@ footer {
 footer p {
     margin: 0;
     font-size: .8rem;
-    color: #131316;
+    color: #09114d;
     letter-spacing: 3px;
 }
 
@@ -141,5 +285,4 @@ footer p {
 header, nav, main, footer {
     max-width: 70rem;
     margin: 0 auto;
-
 }
